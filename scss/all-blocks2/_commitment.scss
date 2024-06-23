@@ -1,0 +1,30 @@
+.main {
+    &__commitment {
+        .container {
+            display: flex;
+            column-gap: 125px;
+            max-width: 1280px;
+            margin-bottom: 256px;
+        }
+    }
+    &__man-image{
+        width: 445px;
+        height: 520px;
+    }
+    &__heading6 {
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 120%;
+        color: #333d4b;
+    }
+
+    &--desc4 {
+        font-family: $second-family;
+        width: 539px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 162%;
+        color: rgb(51, 61, 75, 0.8);
+        margin: 0;
+    }
+}

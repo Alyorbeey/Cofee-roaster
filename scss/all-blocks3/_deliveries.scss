@@ -1,0 +1,129 @@
+.main {
+    &__deliveries {
+        .container {
+            display: flex;
+            column-gap: 125px;
+            max-width: 1280px;
+        }
+    }
+
+    &__first {
+        display: flex;
+        align-items: center;
+        column-gap: 29px;
+        width: 230px;
+height: 32px;
+    }
+    &__first1{
+        display: flex;
+        align-items: center;
+        column-gap: 29px;
+        width: 230px;
+height: 32px;
+opacity: 0.4;
+    }
+    &__title6{
+        font-weight: 900;
+font-size: 24px;
+line-height: 133%;
+color: #83888f;
+    }
+    &--title6{
+        font-weight: 900;
+font-size: 24px;
+line-height: 133%;
+color: #0e8784;
+    }
+    &__title7{
+        font-weight: 900;
+font-size: 24px;
+line-height: 133%;
+color: #333d4b
+    }
+    &__title8{
+        font-weight: 900;
+font-size: 24px;
+line-height: 133%;
+color: #333d4b;
+    }
+    &__list2{
+        display: flex;
+        column-gap: 23px;
+        padding: 0;
+        list-style: none;
+    }
+    &__heading8{
+        font-weight: 900;
+font-size: 40px;
+line-height: 120%;
+color: #83888f;
+    }
+    &__item3{
+        width: 245px;
+height: 250px;
+padding: 32px 28px;
+border-radius: 8px;
+background: #f4f1eb;
+    }
+    &__item2{
+        width: 245px;
+height: 250px;
+padding: 32px 28px;
+border-radius: 8px;
+background-color: $cyan-color;
+    }
+    &__heading10{
+        font-weight: 900;
+font-size: 24px;
+line-height: 133%;
+color: #fff;
+    }
+    &__desc9{
+        width: 172px;
+        font-family: $second-family;
+font-weight: 400;
+font-size: 16px;
+line-height: 162%;
+color: #fff;
+    }
+    &__heading7{
+        width: 192px;
+        font-weight: 900;
+font-size: 24px;
+line-height: 133%;
+color: #333d4b;
+    }
+    &__desc7{
+        font-family: $second-family;
+font-weight: 400;
+font-size: 16px;
+line-height: 162%;
+color: #333d4b;
+    }
+    &__wrapper2{
+        padding: 61px 64px 27px 64px;
+        background-color: #333d4b;
+        margin-bottom: 40px;
+    }
+    &__desc8{
+        font-family: $second-family;
+font-weight: 400;
+font-size: 16px;
+line-height: 162%;
+text-transform: uppercase;
+color: rgb(255, 255, 255, 0.5);
+    }
+    &__heading9{
+        font-weight: 900;
+font-size: 24px;
+line-height: 167%;
+color: #fff;
+    }
+    span{
+        color: #0e8784;
+    }
+    &__btn{
+        float: right;
+        margin-bottom: 168px;
+    }
+}

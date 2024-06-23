@@ -1,0 +1,13 @@
+.btn{
+    cursor: pointer;
+    padding: 15px 31px;
+    border: 1px solid $cyan-color;
+    border-radius: 6px;
+    color: $light-cream-color;
+    background: $cyan-color;
+}
+.btn:active{
+    cursor: pointer;
+    border: 1px solid #66d2cf;
+    background: #66d2cf;
+}

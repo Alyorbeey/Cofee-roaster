@@ -1,0 +1,29 @@
+.main {
+    &__hero1 {
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 1280px;
+            height: 450px;
+            background-repeat: no-repeat;
+            background-size: 1280px 450px;
+        }
+
+        @media only screen and (-webkit-min-device-pixel-ratio: 2),
+        only screen and (min--moz-device-pixel-ratio: 2),
+        only screen and (-o-min-device-pixel-ratio: 2/1),
+        only screen and (min-device-pixel-ratio: 2),
+        only screen and (min-resolution: 192dpi),
+        only screen and (min-resolution: 2dppx) {
+
+            /* Retina-specific stuff here */
+        }
+
+        .container {
+            background-image: url("../../images/bg-image@2x.png");
+
+        }
+    }
+    
+}

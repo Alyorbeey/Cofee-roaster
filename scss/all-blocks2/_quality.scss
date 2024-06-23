@@ -1,0 +1,32 @@
+.main {
+    &__quality {
+        .container {
+            display: flex;
+            column-gap: 125px;
+            max-width: 1280px;
+            height: 577px;
+            border-radius: 5px;
+            padding: 100px 85px;
+            margin-bottom: 168px;
+            background-color: $grey-blue-color;
+        }
+    }
+
+    &--heading4 {
+        text-align: left;
+    }
+    &__cup-image{
+        position: relative;
+        bottom: 176px;
+        width: 445px;
+        height: 474px;
+    }
+    &--desc4 {
+        font-family: $second-family;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 162%;
+        color: rgb(254, 252, 247, 0.8);
+        text-align: left;
+    }
+}

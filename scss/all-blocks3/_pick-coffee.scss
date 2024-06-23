@@ -1,0 +1,17 @@
+.main{
+    &__container{
+        max-width: 1280px;
+        padding: 100px 85px;
+        border-radius: 10px;
+        background-color: #333D4B;
+    }
+    &--circle{
+        background-color: #333D4B;
+    }
+    &--title5{
+        color: #fefcf7;
+    }
+    &--desc5{
+        color: #fefcf7;
+    }
+}
